@@ -1,3 +1,4 @@
+import { natsWrapper } from "../nats-wrapper";
 import express, { Request, Response } from "express";
 import { body } from "express-validator";
 import {
@@ -7,7 +8,7 @@ import {
   NotAuthorizedError,
 } from "@ecticketsrecent/common";
 import { Ticket } from "../../models/ticket";
-
+import { TicketUpdatedPublisher } from "../../events/publishers/ticket-update-publisher";
 const router = express.Router();
 
 router.put(
@@ -38,6 +39,13 @@ router.put(
 
     // save the updated ticket to mongo
     await ticket.save();
+    // publish the event to nats-streaming server
+    new TicketUpdatedPublisher(natsWrapper.client).publish({
+      id: ticket.id,
+      title: ticket.title,
+      price: ticket.price,
+      userId: ticket.userId,
+    });
 
     res.send(ticket);
   }
