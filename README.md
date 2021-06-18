@@ -1,4 +1,4 @@
-# TicketMe
+# TicketPal
 
 ![Project Image](project-image-url)
 
