@@ -2,7 +2,6 @@
 
 ![Project Image](project-image-url)
 
-> This is a ReadMe template to help save you time and effort.
 
 ---
 
@@ -12,7 +11,6 @@ You're sections headers will be used to reference location of destination.
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [References](#references)
-- [License](#license)
 - [Author Info](#author-info)
 
 ---
@@ -59,8 +57,7 @@ TicketPal is an Event-Based Microservices application that allows a general user
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- LinkedIn - [@edgarcatalan](https://www.linkedin.com/in/edgarcatalan10/)
 
 [Back To The Top](#read-me-template)
 
