@@ -47,6 +47,17 @@ TicketPal is an Event-Based Microservices application that allows a general user
     tsc init
     npm start
 ```
+
+#### Docker
+
+## to build an image
+```html
+    docker -t build <dockerusername>/ <folder> .
+    docker push <dockerusername>/ <folder>
+    
+```
+
+
 [Back To The Top](#read-me-template)
 
 ---
