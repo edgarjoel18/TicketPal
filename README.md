@@ -39,8 +39,7 @@ TicketPal is an Event-Based Microservices application that allows a general user
 #### Installation
 
 
-
-#### API Reference
+## dependencies
 
 ```html
     $npm install typescript ts-node-dev express @types/express
@@ -48,16 +47,16 @@ TicketPal is an Event-Based Microservices application that allows a general user
     npm start
 ```
 
-#### Docker
+## Docker
 
-## to build an image
+#### to build an image
 ```html
     docker -t build [dockerusername]/[folder] .
     docker push [dockerusername]/[folder]
     
 ```
 
-#### Kubernetes
+## Kubernetes
 
 ## To process a yaml file and convert it to a pod
 ```html
@@ -69,6 +68,10 @@ TicketPal is an Event-Based Microservices application that allows a general user
     kubectl delete pod [nameofpod]    
 ```
 
+## To see exisiting pods
+```html
+    kubectl get pods    
+```
 
 
 
