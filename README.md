@@ -58,12 +58,12 @@ TicketPal is an Event-Based Microservices application that allows a general user
 ```
 
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Table-of-Contents)
 
 ---
 
 ## References
-[Back To The Top](#read-me-template)
+[Back To The Top](#Table-of-Contents)
 
 ---
 
@@ -71,6 +71,4 @@ TicketPal is an Event-Based Microservices application that allows a general user
 ## Author Info
 
 - LinkedIn - [@edgarcatalan](https://www.linkedin.com/in/edgarcatalan10/)
-
-[Back To The Top](#read-me-template)
 
