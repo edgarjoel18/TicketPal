@@ -36,10 +36,10 @@ TicketPal is an Event-Based Microservices application that allows a general user
 
 ## How To Use
 
-#### Installation
+## Installation
 
 
-## dependencies
+#### dependencies
 
 ```html
     $npm install typescript ts-node-dev express @types/express
@@ -58,17 +58,17 @@ TicketPal is an Event-Based Microservices application that allows a general user
 
 ## Kubernetes
 
-## To process a yaml file and convert it to a pod
+#### To process a yaml file and convert it to a pod
 ```html
     kubectl apply -f [filename]    
 ```
 
-## To delete a pod
+#### To delete a pod
 ```html
     kubectl delete pod [nameofpod]    
 ```
 
-## To see exisiting pods
+#### To see exisiting pods
 ```html
     kubectl get pods    
 ```
