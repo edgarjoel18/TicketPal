@@ -43,7 +43,9 @@ TicketPal is an Event-Based Microservices application that allows a general user
 #### API Reference
 
 ```html
-    <p>dummy code</p>
+    $npm install typescript ts-node-dev express @types/express
+    tsc init
+    npm start
 ```
 [Back To The Top](#read-me-template)
 
