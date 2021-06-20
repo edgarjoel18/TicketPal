@@ -52,10 +52,24 @@ TicketPal is an Event-Based Microservices application that allows a general user
 
 ## to build an image
 ```html
-    docker -t build <dockerusername>/ <folder> .
-    docker push <dockerusername>/ <folder>
+    docker -t build [dockerusername]/[folder] .
+    docker push [dockerusername]/[folder]
     
 ```
+
+#### Kubernetes
+
+## To process a yaml file and convert it to a pod
+```html
+    kubectl apply -f [filename]    
+```
+
+## To delete a pod
+```html
+    kubectl delete pod [nameofpod]    
+```
+
+
 
 
 [Back To The Top](#Table-of-Contents)
