@@ -1,7 +1,6 @@
 # TicketPal
 
-![Project Image](Screen Shot 2021-06-22 at 10.49.52 AM<img width="1739" alt="Screen Shot 2021-06-22 at 10 49 52 AM" src="https://user-images.githubusercontent.com/40044944/122976459-38908200-d349-11eb-8313-883b28e7cb7a.png">
-)
+<img width="1739" alt="Screen Shot 2021-06-22 at 10 49 52 AM" src="https://user-images.githubusercontent.com/40044944/122976459-38908200-d349-11eb-8313-883b28e7cb7a.png">
 
 
 ---
