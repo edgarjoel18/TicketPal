@@ -26,5 +26,4 @@ class NatsWrapper {
   }
 }
 
-// Create a singleton instance of nats
 export const natsWrapper = new NatsWrapper();
